@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap" rel="stylesheet">
+
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div class="header">
+        <div id="greeting">
+            <h1>Rock Paper Scissors</h1>
+            <p>Welcome to the game!</p>
+        </div>
+    </div>
+    <div class="interface">
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>Choose your move: Rock, Paper, or Scissors. You will be playing vs PC</p>
+            <p>Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.
+                first to 5 points wins the game.
+            </p>
+        </div>
+        <div class="game-area">
+            <h2>Game Area</h2>
+            <div class="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            </div>
+    </div>
+    <div class="UX">
+            <h2>Game Status</h2>
+            <p id="status">Make your move!</p>
+            <p id="score">Score: </p>
+            <p id="computer-score">Computer Score: 0</p>
+        </div>
+    </div>
+
+    <style>
+    .buttons button {
+        transition: transform 0.2s;
+    }
+
+    .buttons button:hover {
+        transform: scale(1.1);
+    }
+    </style>
+
     
 </body>
 </html>

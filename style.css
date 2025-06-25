@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #FFEA00;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  background-color: #592bc5da;
+  color: #e4dfdf;
+  border: solid 2px palegreen;
+  padding: 10px 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+body {
+  background: linear-gradient(355deg, rgba(25, 18, 153, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.game-area h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.game-area .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.UX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
